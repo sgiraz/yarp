@@ -32,6 +32,10 @@ public:
     double offset;             //!< pwm offset added to the pid output
     double stiction_up_val;    //!< up stiction offset added to the pid output
     double stiction_down_val;  //!< down stiction offset added to the pid output
+    double viscous_up_val;     //!< up viscous coefficient for friction compensation
+    double viscous_down_val;   //!< down viscous coefficient for friction compensation
+    double coulomb_up_val;     //!< up coulomb coefficient for friction compensation
+    double coulomb_down_val;   //!< down coulomb coefficient for friction compensation
     double kff;                //!< feedforward gain
 
 public:

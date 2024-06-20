@@ -54,6 +54,10 @@ void Pid::clear()
     offset = 0;
     stiction_up_val = 0;
     stiction_down_val = 0;
+    viscous_up_val = 0;
+    viscous_down_val = 0;
+    coulomb_up_val = 0;
+    coulomb_down_val = 0;
     kff = 0;
 }
 
